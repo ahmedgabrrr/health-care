@@ -1,0 +1,86 @@
+nav {
+    width: 100%;
+    height: auto;
+
+}
+
+nav .navbar-collapse {
+    margin-top: 12px;
+}
+
+nav .navbar-collapse a {
+    color: #24277B;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-right: 25px;
+}
+
+nav .navbar-collapse a:hover {
+    color: var(--orange-color);
+}
+
+nav .navbar-collapse .number {
+    width: 100%;
+}
+
+nav .navbar-nav {
+    position: absolute;
+}
+
+.logo {
+    margin-right: 50px;
+}
+
+nav .navbar-nav .active {
+    color: var(--orange-color) !important;
+}
+
+nav .navbar-nav .callIcon {
+    margin-right: 8px;
+}
+
+nav .navbar-toggler {
+    background-color: var(--main-color) !important;
+    border: unset;
+}
+
+nav button {
+    background-color: var(--main-color);
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    border-width: 2px;
+    line-height: 1.2;
+    color: white;
+}
+
+nav button:hover {
+    background-color: var(--orange-color);
+    transition: 1s ease-in-out;
+}
+
+nav .arrowIcon {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width : 992px) {
+    nav .navbar-nav {
+        left: 0;
+        transition: all .8s;
+        margin: 0;
+        width: 100%;
+        padding: 15px 15px 5px;
+        background-color: lightsteelblue;
+        height: 100vh;
+    }
+
+    nav .navbar-nav .dropdown-menu {
+        background-color: lightsteelblue;
+    }
+
+    nav .navbar-collapse a:hover {
+        color: #24277B;
+    }
+}

@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+:root {
+    --main-color: #282B7D;
+    --orange-color: #F17732;
+}
+
+
+a {
+    text-decoration: none !important;
+}
+
+button {
+    text-align: center;
+    box-sizing: border-box;
+    height: 50px;
+    border-radius: 6px !important;
+    border: unset;
+}
+
+li {
+    list-style-type: none;
+}
